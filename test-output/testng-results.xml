@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10925" started-at="2020-10-02T15:57:29 EDT" finished-at="2020-10-02T15:57:40 EDT">
+    <groups>
+    </groups>
+    <test name="Test on Chrome" duration-ms="8227" started-at="2020-10-02T15:57:29 EDT" finished-at="2020-10-02T15:57:38 EDT">
+      <class name="com.test.TestNGMultiBrowserDemo">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.test.TestNGMultiBrowserDemo@57f23557]" name="setUp" is-config="true" duration-ms="5323" started-at="2020-10-02T15:57:29 EDT" finished-at="2020-10-02T15:57:35 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTitleTest()[pri:0, instance:com.test.TestNGMultiBrowserDemo@57f23557]" name="googleTitleTest" duration-ms="1757" started-at="2020-10-02T15:57:35 EDT" finished-at="2020-10-02T15:57:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.TestNGMultiBrowserDemo@57f23557]" name="tearDown" is-config="true" duration-ms="1097" started-at="2020-10-02T15:57:36 EDT" finished-at="2020-10-02T15:57:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.TestNGMultiBrowserDemo -->
+    </test> <!-- Test on Chrome -->
+    <test name="Test on firefox" duration-ms="10894" started-at="2020-10-02T15:57:29 EDT" finished-at="2020-10-02T15:57:40 EDT">
+      <class name="com.test.TestNGMultiBrowserDemo">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.test.TestNGMultiBrowserDemo@1188e820]" name="setUp" is-config="true" duration-ms="7772" started-at="2020-10-02T15:57:29 EDT" finished-at="2020-10-02T15:57:37 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTitleTest()[pri:0, instance:com.test.TestNGMultiBrowserDemo@1188e820]" name="googleTitleTest" duration-ms="1676" started-at="2020-10-02T15:57:37 EDT" finished-at="2020-10-02T15:57:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.TestNGMultiBrowserDemo@1188e820]" name="tearDown" is-config="true" duration-ms="1415" started-at="2020-10-02T15:57:39 EDT" finished-at="2020-10-02T15:57:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.TestNGMultiBrowserDemo -->
+    </test> <!-- Test on firefox -->
+    <test name="Test" duration-ms="10925" started-at="2020-10-02T15:57:29 EDT" finished-at="2020-10-02T15:57:40 EDT">
+      <class name="com.test.TestNGMultiBrowserDemo">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.test.TestNGMultiBrowserDemo@33b37288]" name="setUp" is-config="true" duration-ms="6147" started-at="2020-10-02T15:57:29 EDT" finished-at="2020-10-02T15:57:35 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTitleTest()[pri:0, instance:com.test.TestNGMultiBrowserDemo@33b37288]" name="googleTitleTest" duration-ms="3983" started-at="2020-10-02T15:57:35 EDT" finished-at="2020-10-02T15:57:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.TestNGMultiBrowserDemo@33b37288]" name="tearDown" is-config="true" duration-ms="764" started-at="2020-10-02T15:57:39 EDT" finished-at="2020-10-02T15:57:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.TestNGMultiBrowserDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
